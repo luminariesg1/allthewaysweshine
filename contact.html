@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luminaries | Landing Page</title>
+  <link rel="icon" type="image/png" href="images/logos/mobile-logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="contact-page">
+  <div class="scroll-top">
+    <img src="images/icons/arrow-up.svg" alt="Arrow Up">
+  </div>
+  <header class="header show-for-desktop">
+    <nav class="navbar">
+        <a href="index.html" class="nav-logo">
+            <img src="images/logos/Logo Border.png" alt="Logo">
+        </a>
+        <div class="nav-menus">
+            <ul class="nav-menu-left">
+                <li class="nav-item">
+                    <span>
+                        <a href="index.html">Home</a>
+                    </span>
+                </li>
+                <li class="nav-item">
+                    <span class="about-us-nav">
+                        <a href="about-us.html">About Us</a>
+                    </span>
+                </li>
+            </ul>
+            <ul class="nav-menu-right">
+                <li class="nav-item">
+                    <span class="catalogue-nav">
+                        <a href="catalogue.html">Catalogue</a>
+                    </span>
+                </li>
+                <li class="nav-item">
+                    <span>
+                        <a href="contact.html" class="active">Contact</a>
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<header class="header show-for-mobile">
+    <nav class="navbar">
+        <a href="index.html" class="nav-logo">
+            <img src="images/logos/logo.png" alt="Logo">
+        </a>
+        <div class="nav-menus">
+            <ul>
+                <li class="nav-item">
+                    <span><a href="index.html">Home</a></span>
+                </li>
+                <li class="nav-item">
+                    <span><a href="about-us.html">About Us</a></span>
+                </li>
+                <li class="nav-item">
+                    <span><a href="catalogue.html">Catalogue</a></span>
+                </li>
+                <li class="nav-item">
+                    <span><a href="contact.html" class="active">Contact</a></span>
+                </li>
+            </ul>
+
+        </div>
+        <div class="hamburger"><i class="fas fa-bars"></i><i class="fa-solid fa-xmark"></i></div>
+    </nav>
+</header>
+  <section class="contact-section">
+    <div class="contact-container">
+      <!-- Contact Details Section (outside the form card) -->
+      <div class="contact-details">
+        <h1>Contact Us</h1>
+        <div class="contact-details-1">
+          <p class="contact-description">
+            We’d love to hear from you! Whether you have questions about our book, want to collaborate, or just want to
+            share your thoughts, feel free to reach out.
+          </p>
+          <div class="contact-item">
+            <img src="images/logos/phone.png" alt="Phone Icon" class="phone-icon">
+            <p class="contact-gmail-text">groupluminaries@gmail.com</p>
+          </div>
+          <div class="contact-item">
+            <img src="images/logos/email.png" alt="Email Icon" class="email-icon">
+            <p class="luminaries-contact-number">+63 961 564 3743</p>
+          </div>
+          <div class="contact-item">
+            <img src="images/logos/location.png" alt="Location Icon" class="location-icon">
+            <p class="contact-city-text">Angeles City, Pampanga, Philippines</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-details-2">
+          <h2>Follow us on social media:</h2>
+          <div class="contact-item">
+            <img src="images/logos/facebook-logo.png" alt="Facebook Icon" class="facebook-logo">
+            <p class="luminaries-contact-slogan-text"><a href="https://www.facebook.com/profile.php?id=61573311671427" target="_blank" rel="noopener" class="contact-a"><u>Luminaries' All the Ways We Shine</a></u></p>
+          </div>
+          <div class="contact-item">
+            <img src="images/logos/instagram-logo.png" alt="Instagram Icon" class="instagram-logo">
+            <p class="luminaries-contact-book-text"><a href="https://www.instagram.com/luminariesbook/" target="_blank" rel="noopener" class="contact-a"><u>@luminariesbook</a></u></p>
+          </div>
+          <h2 class="contact-ending-header">We look forward to connecting with you</h2>
+        </div>
+        <!-- <h2 class="contact-ending-header">We look forward to connecting with you!</h2> -->
+      </div>
+
+      <!-- Contact Form Section -->
+      <div class="contact-form-container">
+        <div class="form-card">
+          <form>
+            <!-- First row: Name and Contact No. -->
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" />
+              </div>
+              <div class="form-group">
+                <label for="contact">Contact No</label>
+                <input type="text" id="contact" name="contact" />
+              </div>
+            </div>
+            <!-- Second row: Email and Subject -->
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" />
+              </div>
+            </div>
+            <!-- Third row: Message textarea (full width) -->
+            <div class="form-group full-width">
+              <label for="message">Message</label>
+              <textarea id="message" name="message"></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+       <div class="mobile-social-details show-for-mobile">
+        <div class="mobile-social-icons">
+          <a href="https://www.facebook.com/profile.php?id=61573311671427" target="_blank" rel="noopener" class="contact-a">
+          <img src="images/logos/facebook-mobile.png" alt="">
+        </a>
+        <a href="https://www.instagram.com/luminariesbook/" target="_blank" rel="noopener" class="contact-a">
+          <img src="images/logos/instagram-mobile.png" alt="">
+        </a>
+        </div>
+        <h2>We look forward to connecting with you</h2>
+       </div>
+
+      </div>
+    </div>
+  </section>
+  <footer>
+    <footer>
+      <div class="newsletter-box">
+        <img src="images/logos/logo.png" alt="logo borderless">
+        <div id="newsletter">
+          <h1>Get Your Free PDF E-Book.
+            Sign Up with Your Email Today!</h1>
+            <form action="/" class="inline-form-1">
+              <input type="email" name="email" id="email" placeholder="Enter your Email" required />
+              <input type="submit" value="Submit">
+          </form>
+        </div>
+        <p>© 2025 Luminaries. All Rights Reserved.</p>
+      </div>
+      <!-- <div class="cloud-bg">
+          <img src="images/clouds.png" alt="">
+      </div> -->
+      <div class="footer-bottom"></div>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+
+</html>
