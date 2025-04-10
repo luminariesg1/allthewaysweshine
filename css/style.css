@@ -244,6 +244,7 @@ header.scrolled {
 
   .navbar {
     filter: none;
+    overflow: visible;
   }
 
   .navbar::before {
